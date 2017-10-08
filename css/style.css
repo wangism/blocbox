@@ -74,8 +74,8 @@ header {
 header nav {
   padding:1em 0;
 }
-header .site-logo {
-  /* ARGGHHHHH!! */
+header .site-logo img {
+  width: 100px;
 }
 header nav ul {
   display:inline;
@@ -122,7 +122,8 @@ header .hero p {
 }
 header .hero img {
   display: block;
-  margin:3em auto 0;
+  width: 100%;
+  margin-top: 40px;
 }
 /* BUTTONS */
 .btn {
@@ -291,9 +292,17 @@ header .hero img {
 }
 /* CALL TO ACTION */
 .action {
-  padding:4em 0;
+  padding:2em 0;
   text-align: center;
   background: #9ED1D4;
+}
+.action p {
+  margin: 1em 0 2em;
+}
+.action img {
+  display: inline;
+  width: 75%;
+  margin-top: 2em;
 }
 /* FOOTER */
 footer {
@@ -322,7 +331,8 @@ footer .right-footer-block {
   background-color: transparent;
 }
 footer .logo{
-  padding: 2.35em 0;
+  padding: 1em 0;
+  width: 100px;
   margin: 0 auto;
   display: block;
 }
@@ -386,9 +396,7 @@ footer .logo{
   text-align: center;
   margin-right:8px;
 }
-.add.button {
-  margin-left: 15px;
-}
+
 /* LEFT NAVBAR SETTINGS */
 .left-nav .settings {
   position:absolute;
