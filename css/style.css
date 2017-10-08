@@ -371,6 +371,9 @@ footer .logo{
 .left-nav .items {
   padding:0 6%;
 }
+.left-nav .items .active {
+  background: #00686F;
+}
 .left-nav .items p {
   font-weight: 600;
   text-transform: uppercase;
